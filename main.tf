@@ -35,7 +35,7 @@ provider "mongodbatlas" {
 #
 resource "mongodbatlas_cluster" "my_cluster" {
   project_id              = var.mongodb_atlas_proj_id
-  name                    = "myNewAtlasClusterNameFromTF"
+  name                    = "myNewAtlasClusterNameFromT"
 
   # Provider Settings "block"
   provider_name = "TENANT"
